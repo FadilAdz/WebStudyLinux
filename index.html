@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Learning Hub - Belajar Linux Melalui Bacaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 Linux Learning Hub</h1>
+            <p>Panduan Lengkap Belajar Linux Melalui Bacaan</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li><a href="#pemula" class="nav-link">Pemula</a></li>
+                <li><a href="#menengah" class="nav-link">Menengah</a></li>
+                <li><a href="#lanjutan" class="nav-link">Lanjutan</a></li>
+                <li><a href="#referensi" class="nav-link">Referensi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Section Beranda -->
+        <section id="beranda" class="content-section active">
+            <h2>Selamat Datang di Linux Learning Hub</h2>
+            <div class="intro-card">
+                <h3>Mengapa Belajar Linux?</h3>
+                <p>Linux adalah sistem operasi open-source yang powerful, fleksibel, dan digunakan secara luas di dunia IT. Dari server web hingga smartphone Android, Linux ada di mana-mana. Menguasai Linux membuka peluang karir yang luas di bidang system administration, cybersecurity, cloud computing, dan software development.</p>
+                
+                <div class="learning-path">
+                    <h4>Jalur Pembelajaran Terstruktur:</h4>
+                    <div class="path-item">
+                        <strong>🔰 Pemula:</strong> Pengenalan Linux, instalasi, desktop environment, dan perintah dasar
+                    </div>
+                    <div class="path-item">
+                        <strong>⚙️ Menengah:</strong> System administration, networking, shell scripting, dan package management
+                    </div>
+                    <div class="path-item">
+                        <strong>🚀 Lanjutan:</strong> Server management, security hardening, automation, dan troubleshooting
+                    </div>
+                    <div class="path-item">
+                        <strong>📖 Referensi:</strong> Cheat sheets, manual pages, dan dokumentasi penting
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <h4>25+</h4>
+                        <p>Artikel Lengkap</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>4</h4>
+                        <p>Level Pembelajaran</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>100%</h4>
+                        <p>Gratis</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Pemula -->
+        <section id="pemula" class="content-section">
+            <h2>🔰 Level Pemula</h2>
+            <p class="section-desc">Mulai perjalanan Linux Anda dengan materi dasar yang mudah dipahami</p>
+            
+            <div class="article-grid">
+                <article class="article-card beginner">
+                    <div class="article-header">
+                        <h3>Apa itu Linux?</h3>
+                        <span class="difficulty">Pemula</span>
+                    </div>
+                    <p class="article-meta">⏱️ 8 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Pengenalan lengkap tentang Linux, sejarah, filosofi open source, dan mengapa Linux penting dalam dunia teknologi modern.</p>
+                    <button class="read-btn" onclick="showArticle('linux-intro')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card beginner">
+                    <div class="article-header">
+                        <h3>Memilih Distribusi Linux</h3>
+                        <span class="difficulty">Pemula</span>
+                    </div>
+                    <p class="article-meta">⏱️ 12 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Panduan memilih distribusi Linux yang tepat untuk pemula. Perbandingan Ubuntu, Mint, Fedora, dan distribusi populer lainnya.</p>
+                    <button class="read-btn" onclick="showArticle('linux-distro')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card beginner">
+                    <div class="article-header">
+                        <h3>Instalasi Linux Ubuntu</h3>
+                        <span class="difficulty">Pemula</span>
+                    </div>
+                    <p class="article-meta">⏱️ 15 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Tutorial step-by-step instalasi Ubuntu, dual boot dengan Windows, dan konfigurasi awal setelah instalasi.</p>
+                    <button class="read-btn" onclick="showArticle('ubuntu-install')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card beginner">
+                    <div class="article-header">
+                        <h3>Desktop Environment Linux</h3>
+                        <span class="difficulty">Pemula</span>
+                    </div>
+                    <p class="article-meta">⏱️ 10 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Mengenal berbagai desktop environment seperti GNOME, KDE, XFCE, dan cara memilih yang sesuai dengan kebutuhan.</p>
+                    <button class="read-btn" onclick="showArticle('desktop-env')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card beginner">
+                    <div class="article-header">
+                        <h3>Pengantar Terminal Linux</h3>
+                        <span class="difficulty">Pemula</span>
+                    </div>
+                    <p class="article-meta">⏱️ 18 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Pengenalan terminal, bash shell, dan perintah-perintah dasar yang harus dikuasai setiap pengguna Linux.</p>
+                    <button class="read-btn" onclick="showArticle('terminal-intro')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card beginner">
+                    <div class="article-header">
+                        <h3>File System Linux</h3>
+                        <span class="difficulty">Pemula</span>
+                    </div>
+                    <p class="article-meta">⏱️ 14 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Memahami struktur direktori Linux, filesystem hierarchy standard (FHS), dan navigasi file system.</p>
+                    <button class="read-btn" onclick="showArticle('filesystem')">Baca Artikel</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Menengah -->
+        <section id="menengah" class="content-section">
+            <h2>⚙️ Level Menengah</h2>
+            <p class="section-desc">Tingkatkan kemampuan Linux Anda dengan materi sistem administrasi</p>
+            
+            <div class="article-grid">
+                <article class="article-card intermediate">
+                    <div class="article-header">
+                        <h3>User & Group Management</h3>
+                        <span class="difficulty">Menengah</span>
+                    </div>
+                    <p class="article-meta">⏱️ 20 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Mengelola user accounts, groups, permissions, dan sudo access dalam sistem Linux.</p>
+                    <button class="read-btn" onclick="showArticle('user-management')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card intermediate">
+                    <div class="article-header">
+                        <h3>Package Management</h3>
+                        <span class="difficulty">Menengah</span>
+                    </div>
+                    <p class="article-meta">⏱️ 22 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Menguasai package manager seperti APT, YUM/DNF, Pacman, dan Snap untuk instalasi software.</p>
+                    <button class="read-btn" onclick="showArticle('package-mgmt')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card intermediate">
+                    <div class="article-header">
+                        <h3>Process Management</h3>
+                        <span class="difficulty">Menengah</span>
+                    </div>
+                    <p class="article-meta">⏱️ 18 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Monitoring dan controlling processes, jobs, signals, dan system performance.</p>
+                    <button class="read-btn" onclick="showArticle('process-mgmt')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card intermediate">
+                    <div class="article-header">
+                        <h3>Networking di Linux</h3>
+                        <span class="difficulty">Menengah</span>
+                    </div>
+                    <p class="article-meta">⏱️ 25 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Konfigurasi network interfaces, troubleshooting koneksi, dan tools networking essentials.</p>
+                    <button class="read-btn" onclick="showArticle('networking')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card intermediate">
+                    <div class="article-header">
+                        <h3>Shell Scripting Basics</h3>
+                        <span class="difficulty">Menengah</span>
+                    </div>
+                    <p class="article-meta">⏱️ 30 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Dasar-dasar pemrograman bash shell, variables, conditionals, loops, dan functions.</p>
+                    <button class="read-btn" onclick="showArticle('shell-scripting')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card intermediate">
+                    <div class="article-header">
+                        <h3>System Services & Systemd</h3>
+                        <span class="difficulty">Menengah</span>
+                    </div>
+                    <p class="article-meta">⏱️ 24 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Mengelola services dengan systemd, membuat custom services, dan troubleshooting service issues.</p>
+                    <button class="read-btn" onclick="showArticle('systemd')">Baca Artikel</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Lanjutan -->
+        <section id="lanjutan" class="content-section">
+            <h2>🚀 Level Lanjutan</h2>
+            <p class="section-desc">Materi advanced untuk system administrator dan DevOps engineer</p>
+            
+            <div class="article-grid">
+                <article class="article-card advanced">
+                    <div class="article-header">
+                        <h3>Linux Security Hardening</h3>
+                        <span class="difficulty">Lanjutan</span>
+                    </div>
+                    <p class="article-meta">⏱️ 35 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Teknik-teknik untuk mengamankan sistem Linux, firewall configuration, SELinux, dan security best practices.</p>
+                    <button class="read-btn" onclick="showArticle('security')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card advanced">
+                    <div class="article-header">
+                        <h3>Server Administration</h3>
+                        <span class="difficulty">Lanjutan</span>
+                    </div>
+                    <p class="article-meta">⏱️ 40 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Setup dan maintenance server Linux, web server (Apache/Nginx), database server, dan monitoring.</p>
+                    <button class="read-btn" onclick="showArticle('server-admin')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card advanced">
+                    <div class="article-header">
+                        <h3>Container & Docker</h3>
+                        <span class="difficulty">Lanjutan</span>
+                    </div>
+                    <p class="article-meta">⏱️ 32 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Containerization dengan Docker, Docker Compose, dan integrasi dengan Linux systems.</p>
+                    <button class="read-btn" onclick="showArticle('docker')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card advanced">
+                    <div class="article-header">
+                        <h3>Automation & Scripting</h3>
+                        <span class="difficulty">Lanjutan</span>
+                    </div>
+                    <p class="article-meta">⏱️ 28 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Advanced shell scripting, cron jobs, automation tools, dan infrastructure as code.</p>
+                    <button class="read-btn" onclick="showArticle('automation')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card advanced">
+                    <div class="article-header">
+                        <h3>Performance Tuning</h3>
+                        <span class="difficulty">Lanjutan</span>
+                    </div>
+                    <p class="article-meta">⏱️ 36 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Optimasi performa sistem Linux, memory management, I/O optimization, dan troubleshooting bottlenecks.</p>
+                    <button class="read-btn" onclick="showArticle('performance')">Baca Artikel</button>
+                </article>
+
+                <article class="article-card advanced">
+                    <div class="article-header">
+                        <h3>Backup & Recovery</h3>
+                        <span class="difficulty">Lanjutan</span>
+                    </div>
+                    <p class="article-meta">⏱️ 30 menit baca | 📅 Diperbarui: 2025</p>
+                    <p class="article-excerpt">Strategi backup, disaster recovery planning, dan tools untuk backup automation.</p>
+                    <button class="read-btn" onclick="showArticle('backup')">Baca Artikel</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Referensi -->
+        <section id="referensi" class="content-section">
+            <h2>📖 Referensi & Cheat Sheets</h2>
+            <p class="section-desc">Koleksi referensi cepat dan dokumentasi penting</p>
+            
+            <div class="reference-grid">
+                <div class="reference-card">
+                    <h3>🚀 Command Line Cheat Sheet</h3>
+                    <p>Referensi cepat perintah-perintah terminal Linux yang paling sering digunakan</p>
+                    <button class="read-btn" onclick="showReference('commands')">Lihat Cheat Sheet</button>
+                </div>
+
+                <div class="reference-card">
+                    <h3>🔧 System Administration Quick Reference</h3>
+                    <p>Panduan singkat untuk task-task administrasi sistem yang umum</p>
+                    <button class="read-btn" onclick="showReference('sysadmin')">Lihat Referensi</button>
+                </div>
+
+                <div class="reference-card">
+                    <h3>🌐 Networking Tools & Commands</h3>
+                    <p>Daftar tools dan perintah untuk troubleshooting network di Linux</p>
+                    <button class="read-btn" onclick="showReference('networking')">Lihat Tools</button>
+                </div>
+
+                <div class="reference-card">
+                    <h3>📜 Bash Scripting Reference</h3>
+                    <p>Syntax reference untuk shell scripting dan contoh-contoh praktis</p>
+                    <button class="read-btn" onclick="showReference('bash')">Lihat Referensi</button>
+                </div>
+
+                <div class="reference-card">
+                    <h3>🔒 Security Checklist</h3>
+                    <p>Checklist keamanan untuk hardening sistem Linux production</p>
+                    <button class="read-btn" onclick="showReference('security')">Lihat Checklist</button>
+                </div>
+
+                <div class="reference-card">
+                    <h3>📚 Useful Resources</h3>
+                    <p>Link ke dokumentasi official, forum, dan resource pembelajaran lainnya</p>
+                    <button class="read-btn" onclick="showReference('resources')">Lihat Resources</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Linux Learning Hub. Belajar Linux dengan mudah melalui bacaan berkualitas.</p>
+            <p>📧 Hubungi kami untuk saran artikel atau perbaikan konten</p>
+        </div>
+    </footer>
+
+    <!-- Hidden Article Contents -->
+    <div id="article-contents" style="display: none;">
+        
+        <!-- Article: Linux Intro -->
+        <div id="linux-intro-content">
+            <h2>Apa itu Linux?</h2>
+            
+            <p><strong>Linux</strong> adalah keluarga sistem operasi mirip Unix yang bersifat <em>open source</em> dan gratis. Dikembangkan pertama kali oleh <strong>Linus Torvalds</strong> pada tahun 1991 sebagai proyek hobi, Linux kini telah berkembang menjadi salah satu sistem operasi paling populer dan powerful di dunia.</p>
+            
+            <h3>🏛️ Sejarah Singkat Linux</h3>
+            <p>Pada tahun 1991, Linus Torvalds, seorang mahasiswa Finlandia, merasa frustasi dengan keterbatasan sistem operasi yang ada. Ia memutuskan untuk membuat kernel sistem operasi sendiri dan mengumumkannya di forum Usenet dengan pesan terkenal:</p>
+            
+            <blockquote style="border-left: 4px solid #3498db; padding: 1rem; background: #f8f9fa; margin: 1rem 0; font-style: italic;">
+            "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones."
+            </blockquote>
+            
+            <p>Ternyata prediksi Linus salah besar! Linux kini digunakan di mana-mana, dari smartphone hingga supercomputer.</p>
+            
+            <h3>🔓 Filosofi Open Source</h3>
+            <p>Linux dibangun dengan filosofi <strong>open source</strong>, yang berarti:</p>
+            <ul>
+                <li><strong>Kode sumber terbuka</strong> - Siapa saja bisa melihat, memodifikasi, dan mendistribusikan kode</li>
+                <li><strong>Gratis</strong> - Tidak ada biaya lisensi</li>
+                <li><strong>Kolaboratif</strong> - Dikembangkan oleh ribuan developer di seluruh dunia</li>
+                <li><strong>Transparan</strong> - Tidak ada "kotak hitam" atau kode tersembunyi</li>
+            </ul>
+            
+            <h3>🌟 Mengapa Linux Begitu Populer?</h3>
+            
+            <h4>1. Keamanan Tinggi</h4>
+            <p>Linux didesain dengan arsitektur keamanan yang solid. Sistem permission yang ketat dan transparansi kode membuatnya lebih sulit diretas dibanding sistem operasi proprietary.</p>
+            
+            <h4>2. Stabilitas Luar Biasa</h4>
+            <p>Server Linux bisa berjalan berbulan-bulan bahkan bertahun-tahun tanpa restart. Inilah mengapa 96% dari 1 juta web server teratas menggunakan Linux.</p>
+            
+            <h4>3. Fleksibilitas Total</h4>
+            <p>Linux bisa dikustomisasi sesuai kebutuhan, dari sistem embedded yang sangat ringan hingga supercomputer dengan ribuan core.</p>
+            
+            <h4>4. Ekonomis</h4>
+            <p>Tidak ada biaya lisensi, biaya maintenance rendah, dan bisa berjalan di hardware lama.</p>
+            
+            <h3>🚀 Linux di Mana-Mana</h3>
+            <p>Mungkin tanpa Anda sadari, Linux sudah ada di sekitar kita:</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0;">
+                <div style="background: #ecf0f1; padding: 1rem; border-radius: 8px; text-align: center;">
+                    <strong>📱 Smartphone</strong><br>
+                    Android = Linux
+                </div>
+                <div style="background: #ecf0f1; padding: 1rem; border-radius: 8px; text-align: center;">
+                    <strong>🌐 Internet</strong><br>
+                    67% web server
+                </div>
+                <div style="background: #ecf0f1; padding: 1rem; border-radius: 8px; text-align: center;">
+                    <strong>☁️ Cloud</strong><br>
+                    90% public cloud
+                </div>
+                <div style="background: #ecf0f1; padding: 1rem; border-radius: 8px; text-align: center;">
+                    <strong>🖥️ Supercomputer</strong><br>
+                    100% top 500
+                </div>
+            </div>
+            
+            <h3>🎯 Siapa yang Sebaiknya Belajar Linux?</h3>
+            <ul>
+                <li><strong>Developer</strong> - Environment pengembangan yang superior</li>
+                <li><strong>System Administrator</strong> - Skill wajib untuk mengelola server</li>
+                <li><strong>Cybersecurity Specialist</strong> - Tools dan kontrol yang lebih baik</li>
+                <li><strong>Data Scientist</strong> - Akses ke tools dan library terbaik</li>
+                <li><strong>IT Professional</strong> - Peluang karir yang lebih luas</li>
+                <li><strong>Enthusiast</strong> - Ingin memahami teknologi lebih dalam</li>
+            </ul>
+            
+            <div style="background: #e8f5e8; padding: 1rem; border-radius: 8px; border-left: 4px solid #27ae60; margin-top: 2rem;">
+                <strong>💡 Tips:</strong> Jangan takut untuk mencoba! Linux memiliki community yang sangat membantu. Jika stuck, ada ribuan tutorial, forum, dan dokumentasi yang bisa membantu Anda.
+            </div>
+        </div>
+
+        <!-- Article: Linux Distro -->
+        <div id="linux-distro-content">
+            <h2>Memilih Distribusi Linux yang Tepat</h2>
+            
+            <p>Salah satu hal yang membingungkan bagi pemula adalah <strong>banyaknya pilihan distribusi Linux</strong>. Ada ratusan distribusi (distro) dengan kelebihan masing-masing. Artikel ini akan membantu Anda memilih distro yang tepat.</p>
+            
+            <h3>🤔 Apa itu Distribusi Linux?</h3>
+            <p>Distribusi Linux adalah paket lengkap yang berisi:</p>
+            <ul>
+                <li><strong>Kernel Linux</strong> - Inti sistem operasi</li>
+                <li><strong>Desktop Environment</strong> - Antarmuka grafis</li>
+                <li><strong>Package Manager</strong> - Sistem instalasi software</li>
+                <li><strong>Default Applications</strong> - Program bawaan</li>
+                <li><strong>Configuration Tools</strong> - Tools untuk konfigurasi sistem</li>
+            </ul>
+            
+            <h3>🏆 Rekomendasi untuk Pemula</h3>
+            
+            <div style="border: 2px solid #27ae60; border-radius: 10px; padding: 1.5rem; margin: 1rem 0; background: #e8f5e8;">
+                <h4>🥇 Ubuntu - The Best Start</h4>
+                <p><strong>Mengapa Ubuntu?</strong></p>
+                <ul>
+                    <li>User-friendly dengan GUI yang intuitif</li>
+                    <li>Community support terbesar</li>
+                    <li>Software repository terlengkap</li>
+                    <li>LTS (Long Term Support) - Stabil untuk 5 tahun</li>
+                    <li>Banyak tutorial dan dokumentasi</li>
+                </ul>
+                <p><em>Perfect untuk: Pemula, desktop daily use, development</em></p>
+            </div>
+            
+            <div style="border: 2px solid #f39c12; border-radius: 10px; padding: 1.5rem; margin: 1rem 0; background: #fef9e7;">
+                <h4>🥈 Linux Mint - Windows-like Experience</h4>
+                <p><strong>Mengapa Linux Mint?</strong></p>
+                <ul>
+                    <li>Interface sangat mirip Windows</li>
+                    <li>Based on Ubuntu (inheritance semua keunggulan Ubuntu)</li>
+                    <li>Codec multimedia sudah terinstall</li>
+                    <li>Sangat stabil dan mudah digunakan</li>
+                </ul>
+                <p><em>Perfect untuk: Migrasi dari Windows, user non-teknis</em></p>
+            </div>
+        </div>
+
+        <!-- Article: Terminal Intro -->
+        <div id="terminal-intro-content">
+            <h2>Pengantar Terminal Linux</h2>
+            
+            <p>Terminal adalah <strong>jantung dari Linux</strong>. Meskipun desktop Linux modern sangat user-friendly, menguasai command line akan membuat Anda jauh lebih produktif dan membuka akses ke kekuatan penuh Linux.</p>
+            
+            <h3>🖥️ Apa itu Terminal?</h3>
+            <p>Terminal (atau konsol) adalah antarmuka teks yang memungkinkan Anda berinteraksi langsung dengan sistem operasi melalui perintah-perintah tekstual. Di Linux, terminal menggunakan <strong>shell</strong> sebagai interpreter perintah.</p>
+            
+            <div style="background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px; padding: 1rem; font-family: monospace; margin: 1rem 0;">
+                user@ubuntu:~$ ls -la<br>
+                total 48<br>
+                drwxr-xr-x 7 user user 4096 Jan 26 10:30 .<br>
+                drwxr-xr-x 3 root root 4096 Jan 20 09:15 ..<br>
+                -rw-r--r-- 1 user user  220 Jan 20 09:15 .bash_logout
+            </div>
+            
+            <h3>📚 Perintah Dasar yang Wajib Dikuasai</h3>
+            
+            <h4>🗂️ Navigasi File System</h4>
+            
+            <div style="background: #f8f9fa; border-left: 4px solid #3498db; padding: 1rem; margin: 0.5rem 0;">
+                <strong>pwd</strong> - Print Working Directory<br>
+                <code>$ pwd</code><br>
+                <em>Menampilkan direktori saat ini</em>
+            </div>
+            
+            <div style="background: #f8f9fa; border-left: 4px solid #3498db; padding: 1rem; margin: 0.5rem 0;">
+                <strong>ls</strong> - List Directory Contents<br>
+                <code>$ ls -la</code><br>
+                <em>Menampilkan isi direktori dengan detail</em><br>
+                <small>-l: format panjang, -a: tampilkan hidden files</small>
+            </div>
+            
+            <div style="background: #f8f9fa; border-left: 4px solid #3498db; padding: 1rem; margin: 0.5rem 0;">
+                <strong>cd</strong> - Change Directory<br>
+                <code>$ cd /home/user/Documents</code><br>
+                <code>$ cd ..</code> (naik satu level)<br>
+                <code>$ cd ~</code> (ke home directory)<br>
+                <em>Berpindah antar direktori</em>
+            </div>
+            
+            <div style="background: #e8f5e8; border-left: 4px solid #27ae60; padding: 1.5rem; margin: 2rem 0;">
+                <h4>🏆 Ingat!</h4>
+                <p>Terminal mungkin terlihat menakutkan di awal, tapi setelah terbiasa, Anda akan menemukan bahwa command line seringkali lebih cepat dan efisien daripada GUI. Jangan takut untuk bereksperimen!</p>
+            </div>
+        </div>
+
+        <!-- Reference: Commands -->
+        <div id="commands-content">
+            <h2>🚀 Linux Command Line Cheat Sheet</h2>
+            
+            <h3>📁 File & Directory Operations</h3>
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; margin: 1rem 0;">
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">ls -la</div>
+                <div>List all files with details</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">cd /path/to/dir</div>
+                <div>Change directory</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">pwd</div>
+                <div>Print working directory</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">mkdir dirname</div>
+                <div>Create directory</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">cp file1 file2</div>
+                <div>Copy file</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">mv file1 file2</div>
+                <div>Move/rename file</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">rm filename</div>
+                <div>Delete file</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">find . -name "*.txt"</div>
+                <div>Find all .txt files</div>
+            </div>
+            
+            <h3>⌨️ Keyboard Shortcuts</h3>
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; margin: 1rem 0;">
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">Ctrl+C</div>
+                <div>Interrupt current command</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">Ctrl+D</div>
+                <div>Exit terminal</div>
+                <div style="background: #f8f9fa; padding: 0.5rem; border-radius: 4px; font-family: monospace;">Tab</div>
+                <div>Auto-complete</div>
+            </div>
+        </div>
+
+        <!-- Reference: System Admin -->
+        <div id="sysadmin-content">
+            <h2>🔧 System Administration Quick Reference</h2>
+            
+            <h3>👤 User Management</h3>
+            <pre style="background: #f8f9fa; padding: 1rem; border-radius: 5px; overflow-x: auto;">
+# Add new user
+sudo useradd -m -s /bin/bash username
+sudo passwd username
+
+# Add user to sudo group
+sudo usermod -aG sudo username
+
+# Delete user
+sudo userdel -r username
+            </pre>
+            
+            <h3>📦 Package Management</h3>
+            <pre style="background: #f8f9fa; padding: 1rem; border-radius: 5px; overflow-x: auto;">
+# Ubuntu/Debian (APT)
+sudo apt update
+sudo apt upgrade
+sudo apt install package-name
+
+# CentOS/RHEL (YUM/DNF)
+sudo yum update
+sudo yum install package-name
+            </pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script></script>
+</body>
+</html>
