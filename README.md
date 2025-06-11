@@ -1,1 +1,1 @@
-# WebStudyLinux.org
+# WebStudyLinux
